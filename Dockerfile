@@ -15,8 +15,8 @@ ENV INSTANCE_NAME=searx \
     BASE_URL= \
     MORTY_KEY= \
     MORTY_URL= \
-    SEARX_SETTINGS_PATH=/etc/searx/settings.yml \
-    UWSGI_SETTINGS_PATH=/etc/searx/uwsgi.ini
+    SEARX_SETTINGS_PATH=./settings.yml \
+    UWSGI_SETTINGS_PATH=./uwsgi.ini
 
 WORKDIR /usr/local/searx
 
